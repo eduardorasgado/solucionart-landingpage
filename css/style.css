@@ -1360,7 +1360,7 @@ h4.sub span {
 
 /*-- breadcrumbs --*/
 .breadcrumbs-w3l {
-    background: #febf00;
+    background: #F5821FFF!important;
     padding: 14px 0;
 }
 
@@ -2115,7 +2115,7 @@ p.w3l {
 /*-- stats --*/
 
 .agileits_w3layouts-stats-grids:nth-child(1) {
-    background: #eb5273;
+    background: #ED1C24FF;
     border: 10px solid #efdbdb;
     margin-top: 100px;
 }
@@ -2126,13 +2126,13 @@ p.w3l {
 }
 
 .agileits_w3layouts-stats-grids:nth-child(3) {
-    background: #fc7e46;
+    background: #F5821FFF;
     border: 10px solid #efdbdb;
     margin-top: 100px;
 }
 
 .agileits_w3layouts-stats-grids:nth-child(2) {
-    background: #4ddba6;
+    background: #0095DAFF;
     border: 10px solid #ffffff;
 }
 
@@ -2713,10 +2713,11 @@ p.privacy-para {
 
     width: 80vw;
     margin: auto;
-    background: #FEBF00FF;
+    background: #F5821FFF;
 }
 .we-are p{
     font-size: 1.2em!important;
+    width: 500px;
 }
 
 
@@ -4507,6 +4508,7 @@ p.privacy-para {
 
     .breadcrumbs-w3l {
         padding: 10px 0;
+        background: #F5821FFF!important;
     }
 
     .app-form {
