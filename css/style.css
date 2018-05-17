@@ -2710,14 +2710,18 @@ p.privacy-para {
 
 .we-are{
     padding: 50px 40px;
-
+    height: 22hv;;
     width: 80vw;
     margin: auto;
-    background: #F5821FFF;
+    background-image: url(../images/banners/CEO1.png);
+    background-size: cover;
+    text-align: right;
+    padding-left: 500px;
 }
 .we-are p{
-    font-size: 1.2em!important;
-    width: 500px;
+  color: black;
+  font-size: 1.2em!important;
+  width: 500px;
 }
 
 
