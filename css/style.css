@@ -2180,6 +2180,20 @@ h4.title-about {
     color: #fff;
 }
 
+#acompany-num{
+  display: inline;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#acompany-num2{
+  display: inline-block;
+  font-size: 40px;
+  font-weight: 600;
+  color: #fff;
+}
+
 h4.title-about.about.text-center span {
     background: #febf00;
     padding: 0px 2px 0 7px;
