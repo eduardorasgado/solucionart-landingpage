@@ -35,6 +35,10 @@
 
         <link rel="stylesheet" href="css/style.css"/><!-- template styles -->
 
+       <!--catalogo-->
+       <link rel="stylesheet" type="text/css" href="css/catalogo.css">
+
+
 </head>
 
 <body>
@@ -133,6 +137,51 @@
 
 	<!--Catalogo-->
 
+
+<!--contenido-->
+  <section class="presentation">
+    <h1>Catálogo de Productos y Servicios</h1>
+  
+
+  <div class="container-fluid catal">
+    <div id="canvas">
+
+      <div class="zoom-icon zoom-icon-in"></div>
+
+      <div class="magazine-viewport">
+        <div class="container">
+          <div class="magazine">
+            <!-- Next button -->
+            <div ignore="1" class="next-button"></div>
+            <!-- Previous button -->
+            <div ignore="1" class="previous-button"></div>
+          </div>
+        </div>
+        <div class="bottom">
+          <div id="slider-bar" class="turnjs-slider">
+            <div id="slider"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="post-catal">
+    <p>Nos interesa formar parte de tus proyectos, comunícate con nosotros ya mismo:</p>
+  <a href="contact-us.html"><button class="btn btn-danger">Contactar Ya</button></a>
+  <br><br><br>
+  <div class="jumbotron">
+    <p>Si quieres mostrarle a otros lo que hacemos puedes descargar nuestro catálogo:</p>
+    <div class="formbutton">
+    <form action ="downloable/beemsites_catalogo_1304-2018.pdf" target="_blank" method="get">
+
+            <button class="btn btn-capsul" type="submit">Descargar PDF</button>
+
+     </form>  
+   </div>
+
+  </div>
+  </div>
+  </section>
 
 
 
@@ -318,6 +367,17 @@
 
 				<script src="js/jquery.srcipts.min.js"></script><!-- .bootstrap script -->
 				<script src="js/include.js"></script><!-- for responsive menu -->
+
+	<!--Para el catalogo-->
+      
+        <script type="text/javascript" src="extras/modernizr.2.5.3.min.js"></script>
+        <!--magazine-->
+        <script type="text/javascript" src="extras/jquery-ui-1.8.20.custom.min.js"></script>
+        <script type="text/javascript" src="lib/hash.js"></script>
+        
+        <!--magazine movement-->
+        <script type="text/javascript" src="js/magazine-movement.js"></script>
+
 
 </body>
 
