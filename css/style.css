@@ -242,10 +242,12 @@ div.navbar-header {
 div.logo {
   margin-top: 0;
   padding: 0;
+  padding-top: 14px;
+
 }
 
 div.logo img {
-  height:78px;
+  height:65px;
 }
 
 .nav>li>a{
@@ -660,7 +662,7 @@ div.logo img {
 
 /*-- banner-top --*/
 .banner-silder {
-    margin-top: 50px!important;
+    margin-top: 100px!important;
 }
 
 .banner-info {
@@ -670,29 +672,29 @@ div.logo img {
 
 .banner-top1 {
     background: url(../images/banners/Banner_Soart.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    -moz-background-size: 100%;
 }
 
 .banner-top2 {
     background: url(../images/banners/Banner_Soart2.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    -moz-background-size: 100%;
 }
 
 .banner-top3 {
     background: url(../images/banners/Banner_Soart3.jpg) no-repeat center;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
+    background-size: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    -moz-background-size: 100%;
 }
 
 .banner-top4 {

@@ -6,14 +6,14 @@ window.addEventListener('scroll', function(e){
 	console.log(window.scrollY);
 		//limites en la pantalla para mostrar cierto rango del backgrnd
 		if(window.scrollY >= 400){
-			//los 210px del header menos la pos inicial del backgrnd menos scrollY
+
 			$navy.style.backgroundColor = 'rgba(255,255,255,0)';
 			$navy.style.transition = '1s';
 			$colly.style.backgroundColor = 'rgba(255,255,255,0)';
 			$heady.style.backgroundColor = 'rgba(255,255,255,0.4)';
 		}
 		if(window.scrollY <= 400){
-			//los 210px del header menos la pos inicial del backgrnd menos scrollY
+
 			$navy.style.backgroundColor = 'white';
 			$colly.style.backgroundColor = 'white';
 			$heady.style.backgroundColor = 'rgba(255,255,255,0)';
