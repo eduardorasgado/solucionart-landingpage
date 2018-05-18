@@ -1121,8 +1121,9 @@ label.header span {
 }
 
 .banner-btm {
-    margin-top: -7%;
+    margin-top: 0;
     margin-bottom: 3%;
+    padding-top: 40px;
     background-image: url(../images/banners/junta.png);
 }
 
@@ -1139,7 +1140,7 @@ label.header span {
 
 .banner-subg1 {
     background: #ff6600;
-    padding: 4em 2em;
+    padding: 1em 1em;
     position: relative;
     text-align: center;
     margin-bottom: 2.6em;
