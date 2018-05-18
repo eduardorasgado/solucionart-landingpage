@@ -3,7 +3,7 @@ const $heady = document.getElementById('heady');
 const $colly = document.getElementById('colly');
 
 window.addEventListener('scroll', function(e){
-	console.log(window.scrollY);
+
 		//limites en la pantalla para mostrar cierto rango del backgrnd
 		if(window.scrollY >= 400){
 

@@ -3778,9 +3778,13 @@ p.privacy-para {
     }
 
     .about-grid {
-        margin: 40px 0 0 0px;
+        margin: 40px 0 0 0px!important;
         float: left;
         width: 72%;
+    }
+
+    .gridder{
+      padding-top: 40px;
     }
 
     .mb-left {
