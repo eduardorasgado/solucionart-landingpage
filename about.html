@@ -992,14 +992,13 @@ y generación de Energía Renovable de pequeña escala.</p>
 
 <script>
 		$(document).ready(function () {
-			$("#owl-demo").owlCarousel({
-				items: 1,
-				lazyLoad: true,
-				autoPlay:true,
-				navigation: true,
-				navigationText: true,
-				pagination: false,
-				loop: true,
+			$(".owl-carousel").owlCarousel({
+				items:1,
+			    loop:true,
+			    margin:10,
+			    autoplay:true,
+			    autoplayTimeout:1000,
+			    autoplayHoverPause:false
 			});
 		});
 	</script>
