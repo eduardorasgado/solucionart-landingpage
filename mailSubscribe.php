@@ -3,9 +3,6 @@
 $email = $_POST['Subscribe'];
 
 
-
-$serviceToSend = $services[$service];
-
 $formcontent="Correo de interesado\n\nEmail:$email";
 $recipient = "eduardo.rasgado@beemsites.com";
 $subject = "SolucionArt Interesado: $email";
