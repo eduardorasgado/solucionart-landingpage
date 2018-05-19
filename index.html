@@ -162,36 +162,36 @@
 							<p>Resolvemos todo tipo de problemas</p>
 							<img src="images/f1.png" alt="" />
 						</div>
-						<form action="#" method="post" class="banner_form">
+						<form action="mail.php" method="post" class="banner_form">
 							<div class="sec-left">
 								<label class="contact-form-text">Nombre</label>
-								<input placeholder="Tu nombre o el de tu empresa" name="first name" type="text" required="">
+								<input placeholder="Tu nombre o el de tu empresa" name="mame" type="text" required="">
 							</div>
 							<div class="sec-right">
 								<label class="contact-form-text">Correo Electrónico</label>
-								<input placeholder="contacto@tuempresa.com " name="first name" type="email" required="">
+								<input placeholder="contacto@tuempresa.com " name="email" type="email" required="">
 							</div>
 							<div class="sec-left">
 								<label class="contact-form-text">Número Telefónico</label>
-								<input placeholder=" XXXXXX" name="first name" type="text" required="">
+								<input placeholder=" XXXXXX" name="phone" type="text" required="">
 							</div>
 							<div class="form-tx">
 								<label class="contact-form-text">Domicilio</label>
-								<textarea placeholder="Domicilio de tu empresa o tuyo" required=""></textarea>
+								<textarea name="address" placeholder="Domicilio de tu empresa o tuyo" required=""></textarea>
 							</div>
 							<div class="form-select sec-right">
 								<label class="contact-form-text">Seleccionar Servicio</label>
-								<select>
+								<select name="service">
 									<option value="0">---- SELECIONAR ----</option>
 									<option value="1">Servicio Electrico</option>
 									<option value="2">Diseño</option>
 									<option value="3">Marketing</option>
-									<option value="4">Capacitanción</option>
+									<option value="4">Capacitación</option>
 									<option value="5">Enegías</option>
 									<option value="6">EHSQ</option>
 								</select>
 							</div>
-							<input type="submit" value="Enviar">
+							<input name="submit" type="submit" value="Enviar">
 						</form>
 					</div>
 					<div class="col-md-8 banner-btm-grid2">
@@ -344,7 +344,7 @@
 					<img src="images/mail.png" alt="">
 					<h4>Mantente al tanto de nuestros servicios!</h4>
 					<p>Proporcionanos tu correo para acercarnos más a ti.</p>
-					<form action="#" method="post">
+					<form action="mailSubscribe.php" method="post">
 						<input type="email" placeholder="Ingresa tu correo Electrónico" name="Subscribe" required="">
 						<button class="btn1">Enviar</button>
 					</form>
