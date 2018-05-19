@@ -21,7 +21,7 @@ $services = [
 $serviceToSend = $services[$service];
 
 $formcontent="Mensaje de Interesado\n\nDe: $name \nEmail:$email \nTelefono: $phone \n$address \nServicio: $serviceToSend";
-$recipient = "eduardo.rasgado@beemsites.com";
+$recipient = "contacto@solucionart.com.mx";
 $subject = "SolucionArt Interesado: $name";
 $mailheader = "De: $email \r\n";
 

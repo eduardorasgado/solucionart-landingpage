@@ -4,7 +4,7 @@ $email = $_POST['Subscribe'];
 
 
 $formcontent="Correo de interesado\n\nEmail:$email";
-$recipient = "eduardo.rasgado@beemsites.com";
+$recipient = "contacto@solucionart.com.mx";
 $subject = "SolucionArt Interesado: $email";
 $mailheader = "De: $email \r\n";
 
