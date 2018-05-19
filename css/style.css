@@ -750,6 +750,14 @@ div.logo img {
     -o-background-size: 90%;
     -moz-background-size: 90%;
 }
+.banner-top10 {
+    background: url(../images/banners/contacto.png) no-repeat center;
+    background-size: 90%;
+    -webkit-background-size: 90%;
+    -moz-background-size: 90%;
+    -o-background-size: 90%;
+    -moz-background-size: 90%;
+}
 
 .banner-top1,
 .banner-top2,
