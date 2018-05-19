@@ -1,14 +1,11 @@
 <?php
 
-$email = $_POST['Subscribe'];
-
-
-
-$serviceToSend = $services[$service];
-
-$formcontent="Correo de interesado\n\nEmail:$email";
+$name = $_POST['name'];
+$email = $_POST['email'];
+$message = $_POST['message'];
+$formcontent="Mensaje de Interesado\n\nDe: $name \nEmail:$email \nMensaje: $message";
 $recipient = "eduardo.rasgado@beemsites.com";
-$subject = "SolucionArt Interesado: $email";
+$subject = "SolucionArt Interesado: $name";
 $mailheader = "De: $email \r\n";
 
 mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
