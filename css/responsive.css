@@ -18,11 +18,17 @@ Responsive template styles
 #accion{
     display: none;
 }
+.dl-menu{
+    display: none;
+}
 
 @media (max-width: 500px){
     #accion{
     display: inline-block;
-}
+    }
+    .dl-menu{
+    display: inline-block;
+    }
 }
 
 .dl-menuwrapper {
