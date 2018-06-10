@@ -991,6 +991,113 @@ y generación de Energía Renovable de pequeña escala.</p>
 <script src="js/include.js"></script><!-- for responsive menu -->
 
 <script>
+		/* <![CDATA[ */
+		jQuery(document).ready(function ($) {
+				'use strict';
+				// MASTER SLIDER START
+				var slider = new MasterSlider();
+				slider.setup('masterslider', {
+						width: 1920, // slider standard width
+						height: 854, // slider standard height
+						space: 0,
+						layout: "fullwidth",
+						speed: 50,
+						centerControls: false,
+						loop: true,
+						autoplay: true,
+						parallaxMode: "mouse"
+										// more slider options goes here...
+										// check slider options section in documentation for more options.
+				});
+				// adds Arrows navigation control to the slider.
+				slider.control('arrows');
+				MSScrollParallax.setup(slider, 50, 80, true);
+
+				$('#services-carousel').owlCarousel({
+						items: 3,
+						loop: true,
+						margin: 30,
+						responsiveClass: true,
+						mouseDrag: true,
+						dots: true,
+						responsive: {
+								0: {
+										items: 1,
+										nav: false,
+										loop: true,
+										autoplay: true,
+										autoplayTimeout: 3000,
+										autoplayHoverPause: true,
+										responsiveClass: true,
+										autoHeight: true
+								},
+								600: {
+										items: 2,
+										nav: false,
+										loop: true,
+										autoplay: true,
+										autoplayTimeout: 3000,
+										autoplayHoverPause: true,
+										responsiveClass: true,
+										autoHeight: true
+								},
+								1000: {
+										items: 3,
+										nav: false,
+										loop: true,
+										autoplay: true,
+										autoplayTimeout: 3000,
+										autoplayHoverPause: true,
+										responsiveClass: true,
+										mouseDrag: true,
+										autoHeight: true
+								}
+						}
+				});
+
+				$('#client-carousel').owlCarousel({
+						items: 6,
+						loop: true,
+						margin: 30,
+						responsiveClass: true,
+						mouseDrag: true,
+						dots: false,
+						responsive: {
+								0: {
+										items: 2,
+										nav: true,
+										loop: true,
+										autoplay: true,
+										autoplayTimeout: 3000,
+										autoplayHoverPause: true,
+										responsiveClass: true
+								},
+								600: {
+										items: 3,
+										nav: true,
+										loop: true,
+										autoplay: true,
+										autoplayTimeout: 3000,
+										autoplayHoverPause: true,
+										responsiveClass: true
+								},
+								1000: {
+										items: 6,
+										nav: true,
+										loop: true,
+										autoplay: true,
+										autoplayTimeout: 3000,
+										autoplayHoverPause: true,
+										responsiveClass: true,
+										mouseDrag: true
+								}
+						}
+				});
+		});
+		/* ]]> */
+</script>
+
+<script>
 		$(document).ready(function () {
 			$(".owl-carousel").owlCarousel({
 				items:1,

@@ -15,8 +15,14 @@ Responsive template styles
 /* ==========================================================================
    RESPONSIVE NAVIGATION
 ============================================================================= */
-#dl-menu{
+#accion{
     display: none;
+}
+
+@media (max-width: 500px){
+    #accion{
+    display: inline-block;
+}
 }
 
 .dl-menuwrapper {
@@ -38,7 +44,7 @@ Responsive template styles
     margin-right: 100px;
 }
 
-.dl-menuwrapper button {
+#accion {
     background: #ccc;
     border: none;
     width: 100%;
@@ -99,7 +105,7 @@ Responsive template styles
     text-transform: uppercase;
 }
 
-.no-touch .dl-menuwrapper li a:hover{
+#accion li a:hover{
     background: rgba(255,248,213,0.1);
 }
 
@@ -129,7 +135,7 @@ Responsive template styles
     transform: rotate(180deg);
 }
 
-.dl-menuwrapper li > a:after {
+#accion li > a:after {
     right: 10px;
     color: rgba(0,0,0,0.15);
 }
